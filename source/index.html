@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <div id="main">
 
     </div>
     <button onclick="add_row();">добавить строку в конец таблицы</button>
-    <input id="row_index"><button onclick="insert_row()">вставить строку</button>
+    <label>номер строки<input id="row_index"></label><button onclick="insert_row()">вставить строку</button>
     <button onclick="clean_table();">очистить данные таблицы</button>
-    <button onclick="to_json();">экспорт в json</button>
-    <script src="/scripts/Table.js"></script>
+    <button title="json строка с результатом - в консоли браузера" onclick="to_json();">экспорт в json</button>
+    <script src="../scripts/Table.js"></script>
 </body>
 </html>
